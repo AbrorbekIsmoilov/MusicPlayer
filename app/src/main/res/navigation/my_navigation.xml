@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/musicHomeFragment">
+
+    <fragment
+        android:id="@+id/musicHomeFragment"
+        android:name="abrorbek.uz.musicplayer.MusicHomeFragment"
+        android:label="fragment_music_home"
+        tools:layout="@layout/fragment_music_home" >
+        <action
+            android:id="@+id/action_musicHomeFragment_to_musicListFragment"
+            app:destination="@id/musicListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/musicListFragment"
+        android:name="abrorbek.uz.musicplayer.MusicListFragment"
+        android:label="fragment_music_list"
+        tools:layout="@layout/fragment_music_list" />
+</navigation>

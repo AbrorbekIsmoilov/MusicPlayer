@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <declare-styleable name="BaseVisualizer">
+        <attr name="avDensity" format="float"/>
+        <attr name="avColor" format="color"/>
+        <attr name="avType" format="string"/>
+        <attr name="avGravity" format="string"/>
+        <attr name="avWidth" format="dimension"/>
+        <attr name="avSpeed" format="string"/>
+    </declare-styleable>
+</resources>
